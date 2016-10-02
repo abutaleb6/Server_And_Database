@@ -1,0 +1,4 @@
+netstat -aon
+then find out the process id of port 8080
+then taskkill /f /pid 1111
+1111 is process id

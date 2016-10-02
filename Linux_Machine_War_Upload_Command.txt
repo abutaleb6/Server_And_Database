@@ -1,0 +1,38 @@
+************************** Step by Step ****************************
+step 1 : upload War file to Server pc using FileZilla Client or Toad and put it on /opt/ directory.
+step 2 : open putty.exe like cmd.
+step 3 : cd /home/start
+step 4 : ./stoptomcat.sh
+step 5 : cd /opt/
+step 6 : mkdir inventory
+step 7 : cd inventory
+step 8 : jar -xvf /opt/Desco_Inventory.war
+(if another version is avialable)
+{
+step 9 : cd /opt/apps
+step 10 : mv inventory inventory_o8_sep_2016
+step 11 : cd ..
+}
+step 12 : mv  inventory /opt/apps/
+if(confirmation)
+{
+step 13 : ls -ltr
+step 14 : cd apps
+step 15 :  ls -ltr
+}
+
+step 16 : cd /home/start/
+step 17 : ./starttomcat.sh
+************************** ------****************************
+**************************  N.B. ****************************
+1. cd /opt/ : go to /opt/ folder
+2. cd apps : go to apps folder
+3. cd .. : back from current a folder.
+4. mkdir : make direcotry.
+5. mv : move a file
+6. rename : rename
+7. ls -ltr : show all folder and file in current folder
+8. history : show all the history
+9. jar -xvf /opt/Desco_Inventory.war : war file unzip command
+11. ./starttomcat.sh or ./stoptomcat.sh : start and stop tomcat server
+**************************  END  ****************************

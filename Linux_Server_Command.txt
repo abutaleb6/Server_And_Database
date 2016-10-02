@@ -1,0 +1,24 @@
+  1  cd /opt/
+  2  ls -ltr
+  3  mkdir inventory
+  4  cd inventory
+  5  jar -xvf /opt/Desco_Inventory29.war
+  6  cd ..
+  7  ls -ltr
+  8  cd inventory
+  9  ls -ltr
+  10  cd ..
+  11  cd /home/start/
+  12  ./stoptomcat.sh
+  13  cd /opt/
+  14  cd apps
+  15  ls -ltr
+  15  mv inventory inventory_o8_sep_2016
+  17  ls -ltr
+  18  cd ..
+  19  mv  inventory /opt/apps/
+  20  ls -ltr
+  21  cd apps
+  22  ls -ltr
+  23  cd /home/start/
+  24  ./starttomcat.sh

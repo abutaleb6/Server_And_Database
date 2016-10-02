@@ -1,0 +1,9 @@
+ 992    . oraenv
+  993  sqlplus /nolog
+  994  lisnrctl status
+  995  lsnrctl status
+  996  lsnrctl start
+  997  sqlplus /nolog
+  998  ll
+  999  su oracle
+ 1000  su - oracle
