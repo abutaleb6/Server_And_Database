@@ -1,0 +1,10 @@
+
+Hostname		: invsystem.desco.org.bd
+Server IP		: 192.168.1.120
+Tomcat mount point	: /app/apache-tomcat-8.0.18
+Tomcat Port		: 80
+Tomcat user/pass	: admin/DescoIMS#$
+Tomcat URL		: http://192.168.11.1/
+Database name		: invdb
+Database port		: 1521
+Schema name/pass	: desco_inventory/descoIN321$

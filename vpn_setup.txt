@@ -1,0 +1,13 @@
+Dear Concern,
+Desired VPN Information are given below: 
+User Any Connect VPN Client
+=======================
+Host: 103.231.135.250
+Group Authentication
+Name: ERPVPN
+Password: descoerpvpn
+ 
+User Authentication
+
+Name: ibcs
+Password: 1bcs@54321D
