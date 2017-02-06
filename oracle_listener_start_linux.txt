@@ -4,6 +4,19 @@
   995  lsnrctl status
   996  lsnrctl start
   997  sqlplus /nolog
+-----	connect / as sysdba
+-----	startup
   998  ll
   999  su oracle
  1000  su - oracle
+
+
+TNS-12505: TNS:listener does not currently know of SID given in connect descriptor
+ora-12514 listener does not currently know of service requested in connect descriptor
+
+If the database isn't running, though, nothing will have registered the service, so you shouldn't expect the listener to know about it - lsnrctl status or lsnrctl services won't report a service that isn't registered yet.
+sqlplus /nolog
+Then from the SQL*Plus prompt:
+
+connect / as sysdba
+startup
